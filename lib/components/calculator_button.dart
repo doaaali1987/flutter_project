@@ -18,7 +18,9 @@ CalculatorButton({required this.digit,required this.onClick});
               }else{
             onClick(digit);
           }},
-          child: Text("$digit",style: TextStyle(fontWeight: FontWeight.bold,fontSize:25 ),)),
+    ///Change in feature branch
+          //child: Text("$digit",style: TextStyle(fontWeight: FontWeight.bold,fontSize:25 ),)),
+            child: Text("$digit",style: TextStyle(fontWeight: FontWeight.bold,fontSize:14,color: Colors.red ))),
       ));
   }
 }
